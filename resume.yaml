@@ -13,7 +13,7 @@ education:
     GPA: 3.3
     year: Aug 2024 - Present
     expected: Dec 2026
-    Coursework:
+    coursework:
     - Calculus 1
     - Calculus 2
     - Linear Algebra
@@ -22,21 +22,26 @@ education:
     - Computer Architecture
     - Assembly language
 
-Technical Skills: 
-  - Languages: 
+skills:
+  languages:
     - Python
     - JavaScript
     - Java
     - HTML/CSS
     - C++
     - SQL
-  - Frameworks & Technologies: 
+  frameworks:
     - React
-    - Node.JS 
+    - Node.JS
     - MongoDB
-    - FastAPI's 
+    - FastAPI's
     - Pandas
-    - Chart.js  
+    - Chart.js
+    - Django
+    - PostgreSQL
+    - Git
+    - PyCharm
+    - VS Conde 
 
 experience:
   - company: Microsoft
@@ -44,14 +49,18 @@ experience:
     location: Manhattan, NY
     dates: Jul 2024- Aug 2024
     bullets: 
-      - Collaborated with a team of mentees and Microsoft engineers to develop LiveLearn AI, an AI-driven educational platform to improve student retention for Microsoft’s Mentorship Program. 
+      - Collaborated with a team of mentees and Microsoft engineers to develop LiveLearn AI, an AI-driven educational platform to improve student retention for Microsofts Mentorship Program.
+      - Contributed to front-end development, focusing on integrating AI-generated personalized exams and lessons.
+      - Helped structure and optimize API calls to retrieve AI-generated content dynamically, improving response time and user interaction.
 
   - company: Unadat
     role: UI/UX Designer & Developer
     location: Brooklyn, NY
     dates: Mar 2025 - May 2025
     bullets: 
-      - Collaborated with a team on the Financial Wellness score where we developoed unahouses.
+      - Designed and prototyped new features in Figma and tracked progress in Jira within a Scrum environment to improve user experience and enhance the Financial Wellness Score interface.
+      - Led the design of “UNAHouses”, a gamified community feature inspired by Discord HypeSquad, to boost user engagement through themed financial personality groups.
+      - Designed interactive IGM modules and gamified tools for Unadats Financial Wellness course, aimed at increasing financial literacy across NYC schools and intended to reach over 1 million students.
   
 projects: 
   - project: NYC 311 Noise Analysis
@@ -61,12 +70,15 @@ projects:
   
   - project: LiveLearn AI
     bullets: 
-      - Developed a generative AI tool that will bride the gap between students and teachers.
+      - Developed an AI-powered education platform aimed at improving college student retention.
+      - Built and integrated AI-generated exam features using React.js & API calls for dynamic content.
+      - Contributed to building and integrating AI-generated exam features into the platform using React.js and structured API calls for dynamic content retrieval.
 
 leadership: 
   - activity: Management Leadership For Tomorrow
-    role: fellow
+    role: Fellow
     location: Washington, DC
-    date: Feb 2025- Present
+    date: Feb 2025-resent
     bullets: 
-      - Fellow where i partake in career readiness. 
+      - Engaged in workshops and networking events, gaining insights into software engineering and technology trends while fostering connections with industry leaders.
+      - Honed professional, technical, and leadership skills through workshops, mock interviews, and technical challenges. 
