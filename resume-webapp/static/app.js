@@ -1,0 +1,95 @@
+function parse_yaml(){
+    const yaml_text = document.getElementById("yaml-file");
+    yaml_text.value = `
+name: Josue Minchala
+title: Software Engineer
+
+contact:
+  email: Josueminchala44@gmail.com
+  phone: (917)-515-8891
+  linkedIn: https://LinkeIn.com/in/Josue-Minchala
+  github: https://github.com/Josueminchala
+
+education:
+  - degree: Bachelor Of Science
+    school: Queens College
+    GPA: 3.3
+    year: Aug 2024 - Present
+    expected: Dec 2026
+    coursework:
+      - Calculus 1
+      - Calculus 2
+      - Linear Algebra
+      - Data Structures
+      - OOP In Java & C++
+      - Computer Architecture
+      - Assembly language
+
+skills:
+  languages:
+    - Python
+    - JavaScript
+    - Java
+    - HTML/CSS
+    - C++
+    - SQL
+  frameworks:
+    - React
+    - Node.JS
+    - MongoDB
+    - FastAPI's
+    - Pandas
+    - Chart.js
+    - Django
+    - PostgreSQL
+    - Git
+    - PyCharm
+    - VS Code
+
+experience:
+  - company: Microsoft
+    role: Software Engineer Mentee
+    location: Manhattan, NY
+    dates: Jul 2024- Aug 2024
+    bullets:
+      - Collaborated with a team of mentees and Microsoft engineers to develop LiveLearn AI, an AI-driven educational platform to improve student retention for Microsofts Mentorship Program.
+      - Contributed to front-end development, focusing on integrating AI-generated personalized exams and lessons.
+      - Helped structure and optimize API calls to retrieve AI-generated content dynamically, improving response time and user interaction.
+
+  - company: Unadat
+    role: UI/UX Designer & Developer
+    location: Brooklyn, NY
+    dates: Mar 2025 - May 2025
+    bullets:
+      - Designed and prototyped new features in Figma and tracked progress in Jira within a Scrum environment to improve user experience and enhance the Financial Wellness Score interface.
+      - Led the design of “UNAHouses”, a gamified community feature inspired by Discord HypeSquad, to boost user engagement through themed financial personality groups.
+      - Designed interactive IGM modules and gamified tools for Unadats Financial Wellness course, aimed at increasing financial literacy across NYC schools and intended to reach over 1 million students.
+
+projects:
+  - project: NYC 311 Noise Analysis
+    bullets:
+      - Analized data from NYC open data api to retrieve most reported noise complaints accross all boroughs
+      - Created Visualizations for each type of Noise complaint and which borough they are reported in
+
+  - project: LiveLearn AI
+    bullets:
+      - Developed an AI-powered education platform aimed at improving college student retention.
+      - Built and integrated AI-generated exam features using React.js & API calls for dynamic content.
+      - Contributed to building and integrating AI-generated exam features into the platform using React.js and structured API calls for dynamic content retrieval.
+
+leadership:
+  - activity: Management Leadership For Tomorrow
+    role: Fellow
+    location: Washington, DC
+    date: Feb 2025-present
+    bullets:
+      - Engaged in workshops and networking events, gaining insights into software engineering and technology trends while fostering connections with industry leaders.
+      - Honed professional, technical, and leadership skills through workshops, mock interviews, and technical challenges.
+`;
+}
+
+function generate_resume(){
+    const yaml_text = document.getElementById('yaml-file').value;
+    
+}
+document.getElementById("generate-button").addEventListener("click", generate_resume);
